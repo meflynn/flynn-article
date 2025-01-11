@@ -1,5 +1,5 @@
 
-# <%= title %>
+# Custom Quarto Article Template
 
 ## Creating a New Article
 
@@ -8,7 +8,7 @@ To create a new article using this format:
 *TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template meflynn/flynn-article
 ```
 
 This will create a new directory with an example document that uses this format.
