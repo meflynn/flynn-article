@@ -5,7 +5,6 @@
 
 To create a new article using this format:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
 quarto use template meflynn/flynn-article
@@ -17,17 +16,16 @@ This will create a new directory with an example document that uses this format.
 
 To add this format to an existing document:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/<%= filesafename %>
+quarto add meflynn/flynn-article
 ```
 
 Then, add the format to your document options:
 
 ```yaml
 format:
-  <%= filesafename %>-pdf: default
+  flynn-article-pdf: default
 ```    
 
 ## Options
